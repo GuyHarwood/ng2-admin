@@ -14,7 +14,7 @@ export const PAGES_MENU = [
           }
         }
       },
-      {
+     /* {
         path: 'editors',
         data: {
           menu: {
@@ -35,8 +35,8 @@ export const PAGES_MENU = [
             }
           }
         ]
-      },
-      {
+      },*/
+   /*   {
         path: 'components',
         data: {
           menu: {
@@ -194,7 +194,7 @@ export const PAGES_MENU = [
           }
         ]
       },
-      {
+     {
         path: 'maps',
         data: {
           menu: {
@@ -239,8 +239,8 @@ export const PAGES_MENU = [
             }
           }
         ]
-      },
-      {
+      },*/
+    /*  {
         path: '',
         data: {
           menu: {
@@ -312,13 +312,13 @@ export const PAGES_MENU = [
             ]
           }
         ]
-      },
+      },*/
       {
         path: '',
         data: {
           menu: {
-            title: 'External Link',
-            url: 'http://akveo.com',
+            title: 'CloudJet Website',
+            url: 'http://www.cloudjet.co.uk',
             icon: 'ion-android-exit',
             order: 800,
             target: '_blank'

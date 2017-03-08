@@ -13,17 +13,17 @@ export class PieChartService {
       {
         color: pieColor,
         description: 'Team Users',
-        stats: '57,820',
+        stats: '3756',
         icon: 'person',
       }, {
         color: pieColor,
         description: 'Daily Cost',
-        stats: '$ 89,745',
+        stats: '$ 17,745',
         icon: 'money',
       }, {
         color: pieColor,
         description: 'Uptime',
-        stats: '178,391',
+        stats: '250,000',
         icon: 'face',
       }, {
         color: pieColor,
