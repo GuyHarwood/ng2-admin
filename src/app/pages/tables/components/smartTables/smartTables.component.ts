@@ -29,28 +29,28 @@ export class SmartTables {
       confirmDelete: true
     },
     columns: {
-      id: {
-        title: 'ID',
+      hostName: {
+        title: 'Hostname',
+        type: 'string'
+      },
+      os: {
+        title: 'OS',
+        type: 'string'
+      },
+      zone: {
+        title: 'Security Zone',
+        type: 'string'
+      },
+      team: {
+        title: 'Team',
+        type: 'string'
+      },
+      cpu: {
+        title: 'CPU',
         type: 'number'
       },
-      firstName: {
-        title: 'First Name',
-        type: 'string'
-      },
-      lastName: {
-        title: 'Last Name',
-        type: 'string'
-      },
-      username: {
-        title: 'Username',
-        type: 'string'
-      },
-      email: {
-        title: 'E-mail',
-        type: 'string'
-      },
-      age: {
-        title: 'Age',
+      ram: {
+        title: 'RAM',
         type: 'number'
       }
     }

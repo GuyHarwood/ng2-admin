@@ -50,3 +50,11 @@ Yes!  Visit [our homepage](http://akveo.com/) or simply leave us a note to [cont
 
 Enjoy :metal:
 We're always happy to hear your feedback!
+
+## Guy Notes
+
+To build for prod...
+
+```bash
+npm run prebuild:prod && npm run build:prod
+```

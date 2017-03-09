@@ -14,11 +14,11 @@ export const PAGES_MENU = [
           }
         }
       },
-     /* {
-        path: 'editors',
+      {
+        path: 'tables',
         data: {
           menu: {
-            title: 'Editors',
+            title: 'Inventory',
             icon: 'ion-edit',
             selected: false,
             expanded: false,
@@ -27,16 +27,17 @@ export const PAGES_MENU = [
         },
         children: [
           {
-            path: 'ckeditor',
+            path: 'smarttables',
             data: {
               menu: {
-                title: 'CKEditor',
+                title: 'Virtual Machines',
               }
             }
           }
         ]
-      },*/
-   /*   {
+      },
+      /*
+     {
         path: 'components',
         data: {
           menu: {
